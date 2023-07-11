@@ -1,7 +1,7 @@
 {
-	"name": "miraheze/tsportal",
+	"name": "wikiforge/tsportal",
 	"type": "project",
-	"description": "Portal for handling and managing the investigation lifecycle for Trust and Safety at Miraheze",
+	"description": "Portal for handling and managing the investigation lifecycle for Trust and Safety at WikiForge",
 	"license": "MIT",
 	"require": {
 		"php": "^7.4",

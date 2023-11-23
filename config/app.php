@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'name' => 'WikiTide TSPortal',
+	'name' => 'WikiTide Reports',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -285,7 +285,7 @@ return [
 	|--------------------------------------------------------------------------
 	|
 	| All events that can be recorded as part of a users journey through
-	| TSPortal, except logins and creations.
+	| Reports, except logins and creations.
 	|
 	*/
 	'events'              => [

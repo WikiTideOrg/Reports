@@ -1,6 +1,6 @@
-# WikiTide TSPortal
+# WikiTide Reports
 
-TSPortal is the platform WikiTide uses as its platform for handling reports, investigations, appeals, and transparency.
+Reports is the platform WikiTide uses as its platform for handling reports, investigations, appeals, and transparency.
 
 It is designed by [Owen Baines](https://github.com/OwenBaines) originally for Miraheze, but modifed for WikiTide and is managed on [Phorge](https://issue-tracker.wikitide.org/project/board/71/).
 

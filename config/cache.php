@@ -54,6 +54,6 @@ return [
 	|
 	*/
 
-	'prefix' => 'tsportal_cache',
+	'prefix' => 'reports_cache',
 
 ];

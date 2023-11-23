@@ -78,7 +78,7 @@
 							@endif
 						@endcan
 						<p>CentralAuth: <a
-								href="https://meta.miraheze.org/wiki/Special:CentralAuth/{{ $report->user->username }}">{{ $report->user->username }}</a>
+								href="https://meta.wikitide.org/wiki/Special:CentralAuth/{{ $report->user->username }}">{{ $report->user->username }}</a>
 						</p>
 					</div>
 				</div>

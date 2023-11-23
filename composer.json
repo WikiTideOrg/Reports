@@ -1,7 +1,7 @@
 {
-	"name": "wikiforge/tsportal",
+	"name": "wikitideorg/tsportal",
 	"type": "project",
-	"description": "Portal for handling and managing the investigation lifecycle for Trust and Safety at WikiForge",
+	"description": "Portal for handling and managing the investigation lifecycle for Trust and Safety at WikiTide",
 	"license": "MIT",
 	"require": {
 		"php": "^7.4",

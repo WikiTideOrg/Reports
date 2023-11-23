@@ -6,7 +6,7 @@ use App\Events\DPANew;
 use App\Models\DPA;
 use App\Models\User;
 use App\Rules\DPAAlreadyLive;
-use App\Rules\MirahezeUsernameRule;
+use App\Rules\WikiTideUsernameRule;
 use App\Rules\SameAccountRule;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
@@ -62,7 +62,7 @@ class DPAController extends Controller
 	{
 		$request->validate(
 			[
-				'username' => [ new MirahezeUsernameRule, new DPAAlreadyLive ]
+				'username' => [ new WikiTideUsernameRule, new DPAAlreadyLive ]
 			]
 		);
 
@@ -130,7 +130,7 @@ class DPAController extends Controller
 			] );
 
 			$dpa->user->update( [
-				'username' => 'MirahezeGDPR ' . $dpa->id
+				'username' => 'WikiTideGDPR ' . $dpa->id
 			] );
 		} else {
 			$dpa->update( [

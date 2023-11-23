@@ -5,7 +5,7 @@ namespace App\Rules;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Facades\Http;
 
-class MirahezeUsernameRule implements Rule
+class WikiTideUsernameRule implements Rule
 {
 	/**
 	 * Create a new rule instance.
@@ -27,7 +27,7 @@ class MirahezeUsernameRule implements Rule
 	 */
 	public function passes( $attribute, $value ): bool
 	{
-		return ( Http::get( 'https://login.miraheze.org/w/api.php?format=json&action=query&meta=globaluserinfo&guiuser=' . htmlspecialchars( $value ) )['query']['globaluserinfo']['id'] ?? false );
+		return ( Http::get( 'https://meta.wikitide.org/w/api.php?format=json&action=query&meta=globaluserinfo&guiuser=' . htmlspecialchars( $value ) )['query']['globaluserinfo']['id'] ?? false );
 	}
 
 	/**

@@ -30,7 +30,7 @@ return [
 	'mailers' => [
 		'smtp'     => [
 			'transport'  => 'smtp',
-			'host'       => env( 'MAIL_HOST', 'mail.wikitide.net' ),
+			'host'       => env( 'MAIL_HOST', 'smtp-relay.google.com' ),
 			'port'       => env( 'MAIL_PORT', 587 ),
 			'encryption' => env( 'MAIL_ENCRYPTION', 'tls' ),
 			'username'   => env( 'MAIL_USERNAME' ),

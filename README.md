@@ -1,3 +1,6 @@
+# ARCHIVED
+See [miraheze/TSPortal](https://github.com/miraheze/TSPortal)
+
 # WikiTide Reports
 
 Reports is the platform WikiTide uses as its platform for handling reports, investigations, appeals, and transparency.
